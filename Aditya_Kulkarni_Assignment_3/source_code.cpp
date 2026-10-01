@@ -1,3 +1,16 @@
+/*
+Name of the program = EECS 348 Assignment 3
+Description = Priority-queue email inbox simulator using a list-based MaxHeap.
+Inputs=  EMAIL sender,subject,date | NEXT | READ | COUNT
+Outputs = Printed email details / counts 
+Collaborators = None
+Other sources = Gemini, ChatGPT, Claude 
+Author = Aditya Kulkarni
+Creation date = 10/1/2026
+Revision date = 10/1/2026
+Revision = fixed the crashes and junk values from bad dates, added reading from a .txt file.
+*/
+
 #include <iostream> // Includes standard I/O library for console input/output. Authored by gemini
 #include <fstream>  // needed to read a .txt file. Authored by Aditya with help of claude.
 #include <string> // Includes string library for using the string data type. Authored by gemini
